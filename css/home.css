@@ -1,0 +1,335 @@
+/* 
+    KaiZen Solutions - Home Page Specific Styles
+    Hero Slideshow, Partners, and Metrics
+*/
+
+/* Hero Box */
+.hero-box {
+    grid-column: span 8;
+    grid-row: span 4;
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    position: relative;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slides-container {
+    height: 100%;
+    position: relative;
+}
+
+.hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Professional Dark Overlay for Text Contrast */
+.hero-slide::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(10, 25, 47, 0.85) 0%, rgba(10, 25, 47, 0.4) 100%);
+    z-index: 1;
+}
+
+/* Ensure content stays above overlay */
+.hero-slide * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Page-Specific Image Assignments */
+.hero-slide:nth-child(1) { background-image: url('../assets/images/hero/home-1.svg'); }
+.hero-slide:nth-child(2) { background-image: url('../assets/images/hero/home-2.svg'); }
+.hero-slide:nth-child(3) { background-image: url('../assets/images/hero/home-3.svg'); }
+
+.hero-slide.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hero-content {
+    max-width: 80%;
+}
+
+.slideshow-controls {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+}
+
+.slide-dot {
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.slide-dot.active {
+    background: var(--accent);
+    transform: scale(1.5);
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(100, 255, 218, 0.1);
+    color: var(--accent);
+    border-radius: 30px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-box h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.hero-box p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--accent);
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: var(--transition-smooth);
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(100, 255, 218, 0.3);
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    font-size: 0.75rem;
+    letter-spacing: 6px;
+    opacity: 0.3;
+    font-weight: 800;
+}
+
+/* Metrics */
+.metrics-box {
+    grid-column: span 4;
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.metric {
+    display: flex;
+    flex-direction: column;
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.metric-label {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Workflow Section */
+.process-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.process-step {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.step-icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    color: var(--accent);
+}
+
+.process-step h4 {
+    font-size: 0.9rem;
+    color: var(--primary);
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.process-step p {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    line-height: 1.4;
+}
+
+/* Philosophy */
+.philosophy-box {
+    grid-column: span 4;
+    grid-row: span 4;
+    background: var(--bg-washi);
+}
+
+.philosophy-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.philosophy-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.philosophy-sub h4 {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: var(--primary);
+}
+
+.philosophy-sub p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
+/* Partners Slider */
+.partners-box {
+    grid-column: span 8;
+    grid-row: span 2;
+    position: relative;
+}
+
+.partners-slider {
+    position: relative;
+    min-height: 400px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.partner-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease-in-out, visibility 0.8s ease-in-out;
+}
+
+.partner-slide.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+
+.partner-card {
+    background: var(--bg-washi);
+    border: 1px solid var(--border);
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partner-logo-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-logo {
+    max-height: 60px;
+    max-width: 90%;
+    object-fit: contain;
+}
+
+.partner-logo-fallback {
+    width: 60px;
+    height: 60px;
+    background: var(--white);
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+.partner-name {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.partners-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.partner-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--border);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.partner-dot.active {
+    background: var(--primary);
+    transform: scale(1.3);
+}

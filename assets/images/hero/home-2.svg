@@ -1,0 +1,48 @@
+<svg width="1440" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Base -->
+    <rect width="1440" height="600" fill="#0A192F"/>
+    
+    <!-- Abstract Geometric Patterns (AI & Tech Focus) -->
+    <!-- Subtle Neural Network Texture -->
+    <g opacity="0.12">
+        <path d="M900 100L1100 150L1000 300L1200 400L1350 250L1100 150" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        <path d="M1000 300L900 450L1100 550L1200 400" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        <path d="M1350 250L1440 350" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        <path d="M1100 150L1250 0" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        
+        <!-- Particle Dust (Subtle Texture) -->
+        <circle cx="950" cy="200" r="1" fill="#64FFDA"/>
+        <circle cx="1150" cy="100" r="1.5" fill="#64FFDA"/>
+        <circle cx="1050" cy="400" r="1" fill="#64FFDA"/>
+        <circle cx="1300" cy="450" r="2" fill="#64FFDA"/>
+        <circle cx="1400" cy="150" r="1" fill="#64FFDA"/>
+    </g>
+    
+    <!-- Focus Elements: AI Nodes -->
+    <g opacity="0.35">
+        <circle cx="1100" cy="150" r="6" fill="#64FFDA"/>
+        <circle cx="1000" cy="300" r="8" fill="#64FFDA"/>
+        <circle cx="1200" cy="400" r="10" fill="#64FFDA"/>
+        <circle cx="1350" cy="250" r="6" fill="#64FFDA"/>
+        
+        <!-- Pulsing Rings (Static representation) -->
+        <circle cx="1200" cy="400" r="25" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        <circle cx="1200" cy="400" r="40" stroke="#64FFDA" stroke-width="0.2" fill="none"/>
+        
+        <!-- Processing Blocks -->
+        <path d="M1250 150H1280V160H1250V150Z" fill="#64FFDA"/>
+        <path d="M1250 165H1270V175H1250V165Z" fill="#64FFDA"/>
+        <path d="M1050 450H1090V455H1050V450Z" fill="#64FFDA"/>
+    </g>
+
+    <!-- Overlay Gradient to Ensure Text Readability -->
+    <rect width="1440" height="600" fill="url(#paint0_linear_home2)"/>
+    
+    <defs>
+        <linearGradient id="paint0_linear_home2" x1="0" y1="0" x2="1440" y2="600" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0A192F" stop-opacity="0.95"/>
+            <stop offset="0.6" stop-color="#0A192F" stop-opacity="0.6"/>
+            <stop offset="1" stop-color="#0A192F" stop-opacity="0.8"/>
+        </linearGradient>
+    </defs>
+</svg>

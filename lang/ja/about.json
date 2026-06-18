@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "services": "サービス",
+    "about": "会社概要",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "革新と信頼の架け橋",
+    "subtitle": "高度な技術力と、日本の「ものづくり」の精神を融合させています。"
+  },
+  "who_we_are": {
+    "title": "私たちについて",
+    "content": "2026年に設立されたKaiZen Solutionsは、日本企業にとって優れたオフショア体験を提供するために誕生しました。インドの膨大な技術人材プールと、日本の企業文化や品質への期待に対する深い理解を組み合わせています。"
+  },
+  "bridge": {
+    "title": "戦略的テック・ブリッジ",
+    "content": "私たちは、インドの技術革新と日本の精密主導の産業を結ぶ重要な架け橋としての役割を担っています。私たちのミッションは、これら2つの強みを同期させ、世界クラスのデジタルソリューションを創造することです。",
+    "left_label": "インド (技術人材)",
+    "right_label": "日本 (精度と品質)"
+  },
+  "profile": {
+    "title": "会社概要",
+    "name_label": "会社名",
+    "name_val": "KaiZen Solutions Pvt. Ltd.",
+    "founded_label": "設立",
+    "founded_val": "2026年6月",
+    "location_label": "本社",
+    "location_val": "インド、バンガロール",
+    "office_label": "日本オフィス",
+    "office_val": "日本、東京",
+    "business_label": "事業内容",
+    "business_val": "ITコンサルティング、オフショアソフトウェア開発、AIソリューション",
+    "download_btn": "会社案内をダウンロード (PDF)"
+  },
+  "commitment": {
+    "title": "私たちのコミットメント",
+    "subtitle": "妥協のない品質",
+    "content": "私たちは単にコードを納品するのではなく、「安心」を届けます。私たちのプロセスは、ライフサイクルのあらゆる段階で日本の品質基準を反映するように設計されています。"
+  },
+  "values": {
+    "title": "私たちの価値観",
+    "integrity": {
+      "title": "技術的な誠実さ",
+      "desc": "場当たり的な修正よりも、クリーンで持続可能なコードを優先します。"
+    },
+    "transparency": {
+      "title": "徹底した透明性",
+      "desc": "すべてのスプリントにおいて、明確なコミュニケーションと正直な報告を行います。"
+    },
+    "kaizen": {
+      "title": "継続的な改善",
+      "desc": "パートナーに、より良いサービスを提供するために、常にプロセスを進化させます。"
+    }
+  },
+  "footer": {
+    "tagline": "継続的な改善と技術的な誠実さを通じて、未来を構築します。",
+    "nav_title": "ナビゲーション",
+    "contact_title": "連絡先ハブ",
+    "social_title": "公式SNS",
+    "links": {
+      "home": "ホーム",
+      "services": "サービス",
+      "about": "会社概要",
+      "contact": "お問い合わせ"
+    },
+    "info": {
+      "email_label": "メールアドレス",
+      "email_val": "contact@kaizen.solutions",
+      "phone_label": "電話番号",
+      "phone_val": "+91-80-XXXX-XXXX",
+      "hq_label": "本社",
+      "hq_val": "インド、バンガロール",
+      "jp_label": "日本窓口",
+      "jp_val": "日本、東京"
+    },
+    "legal": {
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    },
+    "copyright": "© 2026 KaiZen Solutions. 全著作権所有。",
+    "address": "バンガロール | 東京",
+    "follow_us": "公式SNS",
+    "error_banner": "言語の切り替えにはローカルウェブサーバー（CORS保護）が必要です。翻訳をテストするには、「Live Server」などを使用してください。"
+  }
+}

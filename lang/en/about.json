@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Bridging Innovation and Reliability",
+    "subtitle": "Fusing technical prowess with the Japanese spirit of 'Monozukuri' (Craftsmanship)."
+  },
+  "who_we_are": {
+    "title": "Who We Are",
+    "content": "Founded in 2026, KaiZen Solutions was established to provide a superior offshore experience for Japanese enterprises. We combine the vast technical talent pool of India with a deep understanding of Japanese corporate culture and quality expectations."
+  },
+  "bridge": {
+    "title": "Strategic Tech-Bridge",
+    "content": "We serve as a vital link between the technological innovation of India and the precision-driven industries of Japan. Our mission is to synchronize these two powerhouses to create world-class digital solutions.",
+    "left_label": "India (Tech Talent)",
+    "right_label": "Japan (Precision & Quality)"
+  },
+  "profile": {
+    "title": "Company Profile",
+    "name_label": "Company Name",
+    "name_val": "KaiZen Solutions Pvt. Ltd.",
+    "founded_label": "Founded",
+    "founded_val": "June 2026",
+    "location_label": "Headquarters",
+    "location_val": "Bangalore, India",
+    "office_label": "Japan Office",
+    "office_val": "Tokyo, Japan",
+    "business_label": "Core Business",
+    "business_val": "IT Consulting, Offshore Software Development, AI Solutions",
+    "download_btn": "Download Company Profile (PDF)"
+  },
+  "commitment": {
+    "title": "Our Commitment",
+    "subtitle": "Uncompromising Quality",
+    "content": "We don't just deliver code; we deliver peace of mind. Our processes are designed to mirror Japanese quality standards at every stage of the lifecycle."
+  },
+  "values": {
+    "title": "Our Values",
+    "integrity": {
+      "title": "Technical Integrity",
+      "desc": "We prioritize clean, sustainable code over quick patches."
+    },
+    "transparency": {
+      "title": "Radical Transparency",
+      "desc": "Clear communication and honest reporting in every sprint."
+    },
+    "kaizen": {
+      "title": "Continuous Improvement",
+      "desc": "Always evolving our processes to serve our partners better."
+    }
+  },
+  "footer": {
+    "tagline": "Architecting the future through continuous improvement and technical integrity.",
+    "nav_title": "Navigation",
+    "contact_title": "Contact Hub",
+    "social_title": "Stay Connected",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "info": {
+      "email_label": "Email",
+      "email_val": "contact@kaizen.solutions",
+      "phone_label": "Phone",
+      "phone_val": "+91-80-XXXX-XXXX",
+      "hq_label": "Headquarters",
+      "hq_val": "Bangalore, India",
+      "jp_label": "Japan Liaison",
+      "jp_val": "Tokyo, Japan"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© 2026 KaiZen Solutions. All rights reserved.",
+    "address": "Bangalore | Tokyo",
+    "follow_us": "Follow Us",
+    "error_banner": "Language toggle requires a local web server (CORS protection). Please use 'Live Server' or equivalent to test translations."
+  }
+}

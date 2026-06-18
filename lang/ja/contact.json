@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "services": "サービス",
+    "about": "会社概要",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "お問い合わせ",
+    "subtitle": "技術的な課題についてお聞かせください。当社のエキスパートが最適なソリューションを提案します。"
+  },
+  "form": {
+    "title": "お問い合わせフォーム",
+    "company": "会社名",
+    "dept": "部署名",
+    "name": "氏名",
+    "email": "メールアドレス",
+    "inquiry_type": "お問い合わせ項目",
+    "type_options": {
+      "general": "一般のお問い合わせ",
+      "project": "新規プロジェクトのご相談",
+      "quote": "お見積り依頼",
+      "recruitment": "パートナーシップ / 採用"
+    },
+    "message": "お問い合わせ内容",
+    "submit": "送信する",
+    "placeholder": "こちらにお問い合わせ内容を入力してください..."
+  },
+  "contact_info": {
+    "title": "拠点情報",
+    "map_title": "グローバル拠点マップ",
+    "hq_title": "本社（インド）",
+    "hq_val": "インド、バンガロール、テックパーク",
+    "jp_title": "日本連絡先",
+    "jp_val": "東京都港区",
+    "email_label": "メールアドレス",
+    "email_val": "contact@kaizen.solutions",
+    "hours_title": "営業時間",
+    "hours_val": "月曜日 - 金曜日: 9:00 - 18:00 (JST/IST)",
+    "response_title": "返信時間",
+    "response_val": "通常、1営業日以内に返信いたします。"
+  },
+  "footer": {
+    "tagline": "継続的な改善と技術的な誠実さを通じて、未来を構築します。",
+    "nav_title": "ナビゲーション",
+    "contact_title": "連絡先ハブ",
+    "social_title": "公式SNS",
+    "links": {
+      "home": "ホーム",
+      "services": "サービス",
+      "about": "会社概要",
+      "contact": "お問い合わせ"
+    },
+    "info": {
+      "email_label": "メールアドレス",
+      "email_val": "contact@kaizen.solutions",
+      "phone_label": "電話番号",
+      "phone_val": "+91-80-XXXX-XXXX",
+      "hq_label": "本社",
+      "hq_val": "インド、バンガロール",
+      "jp_label": "日本窓口",
+      "jp_val": "日本、東京"
+    },
+    "legal": {
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    },
+    "copyright": "© 2026 KaiZen Solutions. 全著作権所有。",
+    "address": "バンガロール | 東京",
+    "follow_us": "公式SNS",
+    "error_banner": "言語の切り替えにはローカルウェブサーバー（CORS保護）が必要です。翻訳をテストするには、「Live Server」などを使用してください。"
+  }
+}

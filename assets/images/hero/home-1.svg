@@ -1,0 +1,53 @@
+<svg width="1440" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Base -->
+    <rect width="1440" height="600" fill="#0A192F"/>
+    
+    <!-- Abstract Geometric Patterns (Vision/Growth Focus) -->
+    <!-- Subtle, refined textures -->
+    <g opacity="0.12">
+        <!-- Central Glow/Core -->
+        <circle cx="1200" cy="300" r="400" fill="url(#core_glow)"/>
+        
+        <!-- Ascending Lines -->
+        <path d="M0 600L1440 0" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M-200 600L1240 0" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M200 600L1640 0" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M-400 600L1040 0" stroke="#64FFDA" stroke-width="0.25" stroke-dasharray="10 5"/>
+        <path d="M400 600L1840 0" stroke="#64FFDA" stroke-width="0.25" stroke-dasharray="10 5"/>
+        
+        <!-- Subtle Grid Texture -->
+        <path d="M1000 0V600 M1100 0V600 M1200 0V600 M1300 0V600 M1400 0V600" stroke="#64FFDA" stroke-width="0.2" opacity="0.5"/>
+        <path d="M0 100H1440 M0 200H1440 M0 300H1440 M0 400H1440 M0 500H1440" stroke="#64FFDA" stroke-width="0.2" opacity="0.5"/>
+    </g>
+    
+    <!-- Focus Elements: Structural Integrity -->
+    <g opacity="0.3">
+        <!-- Architecture Nodes -->
+        <rect x="1100" y="200" width="40" height="40" stroke="#64FFDA" stroke-width="1" fill="none"/>
+        <rect x="1105" y="205" width="30" height="30" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        
+        <rect x="1250" y="400" width="60" height="60" stroke="#64FFDA" stroke-width="1" fill="none"/>
+        <rect x="1260" y="410" width="40" height="40" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        
+        <circle cx="1000" cy="450" r="4" fill="#64FFDA"/>
+        <circle cx="1300" cy="150" r="6" fill="#64FFDA"/>
+        
+        <!-- Diagonal Accent -->
+        <line x1="1200" y1="300" x2="1350" y2="150" stroke="#64FFDA" stroke-width="1.5"/>
+    </g>
+
+    <!-- Overlay Gradient to Ensure Text Readability -->
+    <rect width="1440" height="600" fill="url(#paint0_linear_home1)"/>
+    
+    <defs>
+        <radialGradient id="core_glow" cx="0.5" cy="0.5" r="0.5">
+            <stop stop-color="#64FFDA" stop-opacity="0.3"/>
+            <stop offset="1" stop-color="#64FFDA" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="paint0_linear_home1" x1="0" y1="0" x2="1440" y2="600" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0A192F" stop-opacity="0.95"/>
+            <stop offset="0.6" stop-color="#0A192F" stop-opacity="0.6"/>
+            <stop offset="1" stop-color="#0A192F" stop-opacity="0.8"/>
+        </linearGradient>
+    </defs>
+</svg>

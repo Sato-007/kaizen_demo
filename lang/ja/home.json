@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "services": "サービス",
+    "about": "会社概要",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "slides": [
+      {
+        "badge": "2026年以来のデジタルの卓越性",
+        "title": "日本のエンタープライズITの未来を構築する",
+        "subtitle": "技術的な誠実さと「改善」を原動力とした革新を実現する、高精度のオフショア開発。",
+        "cta": "ソリューションを探索"
+      },
+      {
+        "badge": "AI & 自動化のリーダー",
+        "title": "インテリジェントAIでビジネスを強化",
+        "subtitle": "複雑なデータを実用的なビジネスインテリジェンスに変換する、オーダーメイドの自動化レイヤー。",
+        "cta": "AIについて学ぶ"
+      },
+      {
+        "badge": "クラウド統合のエキスパート",
+        "title": "シームレスなクラウド変革",
+        "subtitle": "ミッションクリティカルな運用が失敗しないことを保証する、レジリエントで拡張性の高いアーキテクチャの設計。",
+        "cta": "クラウドサービスを見る"
+      }
+    ]
+  },
+  "metrics": {
+    "uptime": {
+      "value": "99.9%",
+      "label": "システム信頼性"
+    },
+    "clients": {
+      "value": "50+",
+      "label": "エンタープライズパートナー"
+    },
+    "satisfaction": {
+      "value": "100%",
+      "label": "品質へのこだわり"
+    }
+  },
+  "expertise": {
+    "title": "コア・エキスパート",
+    "tech_stack": {
+      "title": "最新の技術スタック",
+      "desc": "高パフォーマンスなアプリケーションのために、React、Node.js、Python、Goに特化しています。"
+    },
+    "security": {
+      "title": "エンタープライズセキュリティ",
+      "desc": "知的財産を保護するための、厳格なデータ保護とコンプライアンス基準。"
+    }
+  },
+  "process": {
+    "title": "改善ワークフロー",
+    "step1": {
+      "num": "01",
+      "title": "戦略的ディスカバリー",
+      "desc": "ビジネスロジックと日本市場の要件を深く掘り下げます。"
+    },
+    "step2": {
+      "num": "02",
+      "title": "精密アーキテクチャ",
+      "desc": "「セキュリティ第一」の考え方で、拡張性の高い青写真を設計します。"
+    },
+    "step3": {
+      "num": "03",
+      "title": "透明性のある開発",
+      "desc": "定期的なフィードバックループと報告によるアジャイルなスプリント。"
+    },
+    "step4": {
+      "num": "04",
+      "title": "多層的な品質保証 (QA)",
+      "desc": "ゼロディフェクトの提供を保証するための厳格なテストプロトコル。"
+    },
+    "step5": {
+      "num": "05",
+      "title": "展開と改善 (Kaizen)",
+      "desc": "シームレスな立ち上げと、それに続く継続的な最適化とサポート。"
+    }
+  },
+  "partners": {
+    "title": "当社の貴重なパートナー",
+    "subtitle": "業界のリーダーから信頼され、ミッションクリティカルな技術的卓越性を提供しています。",
+    "list": [
+      { "name": "グローバル・フィンテック", "industry": "金融サービス", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "日本製造", "industry": "高度製造", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "TechCore クラウド", "industry": "インフラ", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "ユーロ・ロジスティクス", "industry": "サプライチェーン", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "エーテル AI", "industry": "人工知能", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "ネクサス・ヘルス", "industry": "ヘルスケアシステム", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "ソラリス・エナジー", "industry": "再生可能エネルギー", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "タイタン・リテール", "industry": "Eコマース", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "ベリタス・リーガル", "industry": "リーガルテック", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "エアロダイナミクス", "industry": "航空宇宙", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "バイオシンセティクス", "industry": "バイオテクノロジー", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "クォンタム・ラボ", "industry": "ディープテック", "logo": "assets/partner_logos/partner_logo.png" }
+    ]
+  },
+  "philosophy": {
+    "title": "改善の原則",
+    "content": "私たちの名前は私たちの方法論を定義しています。「改善」とは継続的な改善を意味します。私たちは単にソフトウェアを構築するのではなく、ビジネス目標とともに成長する進化するエコシステムを構築します。",
+    "vision_title": "私たちのビジョン",
+    "vision_content": "日本のテクノロジーリーダーシップのための、最も信頼されるオフショアの架け橋となること。",
+    "mission_title": "私たちの使命",
+    "mission_content": "インドの技術力と日本の品質基準を融合させ、グローバルな課題を解決する。"
+  },
+  "footer": {
+    "tagline": "継続的な改善と技術的な誠実さを通じて、未来を構築します。",
+    "nav_title": "ナビゲーション",
+    "contact_title": "連絡先ハブ",
+    "social_title": "公式SNS",
+    "links": {
+      "home": "ホーム",
+      "services": "サービス",
+      "about": "会社概要",
+      "contact": "お問い合わせ"
+    },
+    "info": {
+      "email_label": "メールアドレス",
+      "email_val": "contact@kaizen.solutions",
+      "phone_label": "電話番号",
+      "phone_val": "+91-80-XXXX-XXXX",
+      "hq_label": "本社",
+      "hq_val": "インド、バンガロール",
+      "jp_label": "日本窓口",
+      "jp_val": "日本、東京"
+    },
+    "legal": {
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    },
+    "copyright": "© 2026 KaiZen Solutions. 全著作権所有。",
+    "address": "バンガロール | 東京",
+    "follow_us": "公式SNS",
+    "error_banner": "言語の切り替えにはローカルウェブサーバー（CORS保護）が必要です。翻訳をテストするには、「Live Server」などを使用してください。"
+  }
+}

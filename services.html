@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | KaiZen Solutions</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/subpages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="error-banner" class="error-banner" style="display: none;" data-i18n="footer.error_banner"></div>
+
+    <header>
+        <div class="container nav-container">
+            <div class="menu-toggle" id="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="logo">
+                <img src="assets/logos/logo.png" alt="KAIZEN" style="height: 30px; vertical-align: middle; margin-right: 10px; display: none;" onload="this.style.display='inline-block'">
+                KAIZEN<span class="accent">.</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" data-i18n="nav.home">Home</a>
+                <a href="services.html" data-i18n="nav.services" class="active-link">Services</a>
+                <a href="about.html" data-i18n="nav.about">About Us</a>
+                <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switch">
+                    <span class="lang-label en-label active">EN</span>
+                    <label class="switch">
+                        <input type="checkbox" id="language-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="lang-label jp-label">JP</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-close" id="mobile-close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="services.html" data-i18n="nav.services" class="active-link">Services</a>
+        <a href="about.html" data-i18n="nav.about">About Us</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+    </div>
+
+    <main class="bento-grid container">
+        <section class="bento-item page-hero hero-services fade-in">
+            <h1 data-i18n="hero.title">Architecting Enterprise Excellence</h1>
+            <p data-i18n="hero.subtitle">A comprehensive suite of high-precision IT services, fusing Indian technical prowess with Japanese quality standards.</p>
+        </section>
+
+        <!-- Category Navigation -->
+        <nav class="category-nav fade-in">
+            <a href="#software" class="category-pill" data-i18n="categories.software">Software Development</a>
+            <a href="#ai" class="category-pill" data-i18n="categories.ai">AI & Automation</a>
+            <a href="#data" class="category-pill" data-i18n="categories.data">Data & Intelligence</a>
+            <a href="#cloud" class="category-pill" data-i18n="categories.cloud">Cloud & Infra</a>
+            <a href="#dx" class="category-pill" data-i18n="categories.dx">Digital Transformation</a>
+            <a href="#bpo" class="category-pill" data-i18n="categories.bpo">Business Process</a>
+            <a href="#managed" class="category-pill" data-i18n="categories.managed">Managed Services</a>
+            <a href="#qa" class="category-pill" data-i18n="categories.qa">QA & Testing</a>
+        </nav>
+
+        <!-- Service Categories -->
+        <section id="software" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.software.title">Software Development</h2>
+            <p class="service-desc" data-i18n="sections.software.desc">Engineering scalable, high-integrity applications that serve as the backbone of modern enterprise operations.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.software.features.0">Enterprise Apps</span>
+                <span class="feature-tag" data-i18n="sections.software.features.1">SaaS Products</span>
+                <span class="feature-tag" data-i18n="sections.software.features.2">API Integration</span>
+                <span class="feature-tag" data-i18n="sections.software.features.3">Legacy Modernization</span>
+            </div>
+        </section>
+
+        <section id="ai" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M7 11h.01"></path>
+                    <path d="M11 7h.01"></path>
+                    <path d="M11 11h.01"></path>
+                    <path d="M11 15h.01"></path>
+                    <path d="M15 11h.01"></path>
+                    <path d="M7 7h.01"></path>
+                    <path d="M7 15h.01"></path>
+                    <path d="M15 7h.01"></path>
+                    <path d="M15 15h.01"></path>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.ai_automation.title">AI & Automation</h2>
+            <p class="service-desc" data-i18n="sections.ai_automation.desc">Deploying intelligent automation layers and generative AI to transform complex data into competitive advantages.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.ai_automation.features.0">Generative AI</span>
+                <span class="feature-tag" data-i18n="sections.ai_automation.features.1">Custom LLMs</span>
+                <span class="feature-tag" data-i18n="sections.ai_automation.features.2">RPA</span>
+                <span class="feature-tag" data-i18n="sections.ai_automation.features.3">Predictive Analytics</span>
+            </div>
+        </section>
+
+        <section id="data" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.data.title">Data & Business Intelligence</h2>
+            <p class="service-desc" data-i18n="sections.data.desc">Turning raw data into actionable insights through sophisticated engineering and reporting automation.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.data.features.0">Data Engineering</span>
+                <span class="feature-tag" data-i18n="sections.data.features.1">BI Reporting</span>
+                <span class="feature-tag" data-i18n="sections.data.features.2">KPI Monitoring</span>
+                <span class="feature-tag" data-i18n="sections.data.features.3">Data Governance</span>
+            </div>
+        </section>
+
+        <section id="cloud" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17.5 19a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"></path>
+                    <path d="M12.5 19a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"></path>
+                    <path d="M7.5 19a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"></path>
+                    <path d="M12.5 12V5a3 3 0 0 0-6 0v7"></path>
+                    <path d="M17.5 12V8a3 3 0 0 0-6 0v4"></path>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.cloud_infra.title">Cloud & Infrastructure</h2>
+            <p class="service-desc" data-i18n="sections.cloud_infra.desc">Designing resilient, cloud-native architectures that ensure maximum uptime and global scalability.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.cloud_infra.features.0">Cloud Migration</span>
+                <span class="feature-tag" data-i18n="sections.cloud_infra.features.1">DevOps & CI/CD</span>
+                <span class="feature-tag" data-i18n="sections.cloud_infra.features.2">Infrastructure Auto</span>
+                <span class="feature-tag" data-i18n="sections.cloud_infra.features.3">Performance Tuning</span>
+            </div>
+        </section>
+
+        <section id="dx" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v4"></path>
+                    <path d="M12 18v4"></path>
+                    <path d="M4.93 4.93l2.83 2.83"></path>
+                    <path d="M16.24 16.24l2.83 2.83"></path>
+                    <path d="M2 12h4"></path>
+                    <path d="M18 12h4"></path>
+                    <path d="M4.93 19.07l2.83-2.83"></path>
+                    <path d="M16.24 7.76l2.83-2.83"></path>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.dx.title">Digital Transformation</h2>
+            <p class="service-desc" data-i18n="sections.dx.desc">Strategic consulting to navigate the complex intersection of technology, culture, and business process.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.dx.features.0">Tech Strategy</span>
+                <span class="feature-tag" data-i18n="sections.dx.features.1">Enterprise Roadmap</span>
+                <span class="feature-tag" data-i18n="sections.dx.features.2">Process Optimization</span>
+                <span class="feature-tag" data-i18n="sections.dx.features.3">IT Governance</span>
+            </div>
+        </section>
+
+        <section id="bpo" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.bpo.title">Business Process (BPO)</h2>
+            <p class="service-desc" data-i18n="sections.bpo.desc">Optimizing back-office operations through high-precision data processing and customer support excellence.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.bpo.features.0">Data Processing</span>
+                <span class="feature-tag" data-i18n="sections.bpo.features.1">Helpdesk Ops</span>
+                <span class="feature-tag" data-i18n="sections.bpo.features.2">Technical Support</span>
+                <span class="feature-tag" data-i18n="sections.bpo.features.3">Business Research</span>
+            </div>
+        </section>
+
+        <section id="managed" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.managed.title">Managed IT Services</h2>
+            <p class="service-desc" data-i18n="sections.managed.desc">Comprehensive 24/7 application and infrastructure support ensuring continuous business continuity.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.managed.features.0">Incident Mgmt</span>
+                <span class="feature-tag" data-i18n="sections.managed.features.1">Remote Support</span>
+                <span class="feature-tag" data-i18n="sections.managed.features.2">Service Desk</span>
+                <span class="feature-tag" data-i18n="sections.managed.features.3">Release Management</span>
+            </div>
+        </section>
+
+        <section id="qa" class="bento-item bento-half fade-in">
+            <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="m9 12 2 2 4-4"></path>
+                </svg>
+            </div>
+            <h2 class="section-tag" data-i18n="sections.qa.title">QA & Testing Services</h2>
+            <p class="service-desc" data-i18n="sections.qa.desc">Rigorous quality assurance protocols that guarantee technical integrity and seamless user experiences.</p>
+            <div class="feature-list">
+                <span class="feature-tag" data-i18n="sections.qa.features.0">Test Automation</span>
+                <span class="feature-tag" data-i18n="sections.qa.features.1">Performance Testing</span>
+                <span class="feature-tag" data-i18n="sections.qa.features.2">Regression QA</span>
+                <span class="feature-tag" data-i18n="sections.qa.features.3">UAT Consulting</span>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bento-item services-cta fade-in" style="grid-column: span 12;">
+            <h2 data-i18n="services_cta.title">Ready to Architect Your Solution?</h2>
+            <p data-i18n="services_cta.subtitle">Let's discuss how our offshore expertise can accelerate your business goals.</p>
+            <a href="contact.html" class="btn" data-i18n="services_cta.button">Book a Free Consultation Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column footer-brand">
+                    <div class="logo">
+                        <img src="assets/logos/logo.png" alt="KAIZEN" style="height: 30px; vertical-align: middle; margin-right: 10px; display: none;" onload="this.style.display='inline-block'">
+                        KAIZEN<span class="accent">.</span>
+                    </div>
+                    <p class="footer-tagline" data-i18n="footer.tagline">Architecting the future through continuous improvement and technical integrity.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.nav_title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="footer.links.home">Home</a></li>
+                        <li><a href="services.html" data-i18n="footer.links.services">Services</a></li>
+                        <li><a href="about.html" data-i18n="footer.links.about">About Us</a></li>
+                        <li><a href="contact.html" data-i18n="footer.links.contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.contact_title">Contact Hub</h4>
+                    <ul class="footer-contact-list">
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.email_label">Email</span>
+                            <span class="contact-val" data-i18n="footer.info.email_val">contact@kaizen.solutions</span>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.hq_label">Headquarters</span>
+                            <span class="contact-val" data-i18n="footer.info.hq_val">Bangalore, India</span>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.jp_label">Japan Liaison</span>
+                            <span class="contact-val" data-i18n="footer.info.jp_val">Tokyo, Japan</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.social_title">Stay Connected</h4>
+                    <div class="footer-social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">X (Twitter)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy" data-i18n="footer.copyright">© 2026 KaiZen Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html" target="_blank" rel="noopener noreferrer" data-i18n="footer.legal.privacy">Privacy Policy</a>
+                    <a href="terms.html" target="_blank" rel="noopener noreferrer" data-i18n="footer.legal.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js" defer></script>
+    <script src="js/common.js" defer></script>
+</body>
+</html>

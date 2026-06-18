@@ -1,0 +1,47 @@
+<svg width="1440" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Base -->
+    <rect width="1440" height="600" fill="#0A192F"/>
+    
+    <!-- Abstract Geometric Patterns (Cloud/Connectivity Focus) -->
+    <!-- Subtle Isometric Grid/Planes -->
+    <g opacity="0.12">
+        <path d="M900 300L1100 200L1300 300L1100 400Z" stroke="#64FFDA" stroke-width="1" fill="none"/>
+        <path d="M950 350L1150 250L1350 350L1150 450Z" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        <path d="M1000 400L1200 300L1400 400L1200 500Z" stroke="#64FFDA" stroke-width="0.25" fill="none"/>
+        
+        <!-- Vertical Connections -->
+        <line x1="1100" y1="200" x2="1100" y2="100" stroke="#64FFDA" stroke-width="0.5" stroke-dasharray="4 4"/>
+        <line x1="1300" y1="300" x2="1300" y2="200" stroke="#64FFDA" stroke-width="0.5" stroke-dasharray="4 4"/>
+        <line x1="900" y1="300" x2="900" y2="200" stroke="#64FFDA" stroke-width="0.5" stroke-dasharray="4 4"/>
+    </g>
+    
+    <!-- Focus Elements: Cloud Data Blocks -->
+    <g opacity="0.35">
+        <!-- Floating Data Clusters -->
+        <path d="M1100 120L1140 100L1180 120L1140 140Z" fill="#64FFDA"/>
+        <path d="M1100 120V140L1140 160V140Z" fill="#64FFDA" opacity="0.7"/>
+        <path d="M1180 120V140L1140 160V140Z" fill="#64FFDA" opacity="0.5"/>
+        
+        <path d="M1250 220L1280 205L1310 220L1280 235Z" fill="#64FFDA"/>
+        <path d="M1250 220V235L1280 250V235Z" fill="#64FFDA" opacity="0.7"/>
+        <path d="M1310 220V235L1280 250V235Z" fill="#64FFDA" opacity="0.5"/>
+        
+        <!-- Data Sync Lines -->
+        <path d="M1000 150C1050 150 1080 120 1120 120" stroke="#64FFDA" stroke-width="1.5" fill="none"/>
+        <circle cx="1000" cy="150" r="3" fill="#64FFDA"/>
+        
+        <path d="M1350 150C1300 150 1280 220 1250 220" stroke="#64FFDA" stroke-width="1.5" fill="none"/>
+        <circle cx="1350" cy="150" r="3" fill="#64FFDA"/>
+    </g>
+
+    <!-- Overlay Gradient to Ensure Text Readability -->
+    <rect width="1440" height="600" fill="url(#paint0_linear_home3)"/>
+    
+    <defs>
+        <linearGradient id="paint0_linear_home3" x1="0" y1="0" x2="1440" y2="600" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0A192F" stop-opacity="0.95"/>
+            <stop offset="0.6" stop-color="#0A192F" stop-opacity="0.6"/>
+            <stop offset="1" stop-color="#0A192F" stop-opacity="0.8"/>
+        </linearGradient>
+    </defs>
+</svg>

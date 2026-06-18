@@ -1,0 +1,46 @@
+<svg width="1440" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Base -->
+    <rect width="1440" height="600" fill="#0A192F"/>
+    
+    <!-- Abstract Geometric Patterns (Global Communication Focus) -->
+    <g opacity="0.15">
+        <!-- Global Arcs/Rings -->
+        <path d="M1440 600A600 600 0 0 0 840 0" stroke="#64FFDA" stroke-width="1" fill="none"/>
+        <path d="M1440 600A700 700 0 0 0 740 0" stroke="#64FFDA" stroke-width="0.5" fill="none" stroke-dasharray="10 5"/>
+        <path d="M1440 600A800 800 0 0 0 640 0" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+        <path d="M1440 600A900 900 0 0 0 540 0" stroke="#64FFDA" stroke-width="0.25" fill="none" stroke-dasharray="2 4"/>
+        
+        <!-- Radar Sweep Lines -->
+        <line x1="1440" y1="600" x2="1000" y2="100" stroke="#64FFDA" stroke-width="0.5"/>
+        <line x1="1440" y1="600" x2="600" y2="300" stroke="#64FFDA" stroke-width="0.5"/>
+        <line x1="1440" y1="600" x2="800" y2="600" stroke="#64FFDA" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Focus Elements: Signal Nodes -->
+    <g opacity="0.4">
+        <!-- Communication Pings -->
+        <circle cx="1000" cy="200" r="4" fill="#64FFDA"/>
+        <circle cx="1000" cy="200" r="15" stroke="#64FFDA" stroke-width="1" fill="none"/>
+        <circle cx="1000" cy="200" r="30" stroke="#64FFDA" stroke-width="0.5" fill="none"/>
+
+        <circle cx="800" cy="400" r="3" fill="#64FFDA"/>
+        <circle cx="800" cy="400" r="10" stroke="#64FFDA" stroke-width="1" fill="none"/>
+        
+        <circle cx="1200" cy="100" r="5" fill="#64FFDA"/>
+        
+        <!-- Envelop/Mail Abstraction -->
+        <rect x="100" y="450" width="120" height="80" stroke="#64FFDA" stroke-width="2" fill="none"/>
+        <polyline points="100 450 160 500 220 450" stroke="#64FFDA" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Gradient Overlay for depth -->
+    <rect width="1440" height="600" fill="url(#paint0_linear_hero_contact)"/>
+    
+    <defs>
+        <linearGradient id="paint0_linear_hero_contact" x1="0" y1="0" x2="1440" y2="600" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0A192F" stop-opacity="0.9"/>
+            <stop offset="0.5" stop-color="#0A192F" stop-opacity="0.4"/>
+            <stop offset="1" stop-color="#0A192F" stop-opacity="0.8"/>
+        </linearGradient>
+    </defs>
+</svg>

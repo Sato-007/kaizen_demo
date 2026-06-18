@@ -1,0 +1,167 @@
+/* 
+    KaiZen Solutions - About Page & Subpage Utilities
+*/
+
+.page-hero {
+    grid-column: span 12;
+    background: var(--primary);
+    color: var(--white);
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Professional Overlay for Text Contrast */
+.page-hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(10, 25, 47, 0.8) 0%, rgba(10, 25, 47, 0.3) 100%);
+    z-index: 1;
+}
+
+/* Ensure content stays above overlay */
+.page-hero > * {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-about { background-image: url('../assets/images/hero/about-hero.svg'); }
+.hero-services { background-image: url('../assets/images/hero/services-hero.svg'); }
+.hero-contact { background-image: url('../assets/images/hero/contact-hero.svg'); }
+
+.page-hero h1 { font-size: 3rem; margin-bottom: 16px; }
+.page-hero p { opacity: 0.8; max-width: 700px; margin: 0 auto; }
+
+/* Company Profile Table */
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+}
+
+.profile-table tr {
+    border-bottom: 1px solid var(--border);
+}
+
+.profile-table th, .profile-table td {
+    padding: 20px 0;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.profile-table th {
+    width: 30%;
+    color: var(--text-light);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.profile-table td {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Download Button */
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+    padding: 14px 24px;
+    background: var(--primary);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 6px;
+    transition: var(--transition-smooth);
+    border: 1px solid var(--primary);
+}
+
+.btn-download:hover {
+    background: transparent;
+    color: var(--primary);
+}
+
+.btn-download svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Bridge Visual */
+.bridge-container {
+    position: relative;
+    height: 180px;
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle at center, rgba(100, 255, 218, 0.05) 0%, transparent 70%);
+}
+
+.bridge-visual {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    height: 2px;
+    background: linear-gradient(90deg,
+        var(--accent) 0%,
+        var(--primary) 20%,
+        var(--primary) 80%,
+        var(--accent) 100%);
+    z-index: 0;
+}
+
+.bridge-visual::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    border-top: 1px dashed var(--accent);
+    border-radius: 50% 50% 0 0;
+    opacity: 0.2;
+}
+
+.bridge-node {
+    width: 140px;
+    text-align: center;
+    z-index: 1;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    transition: var(--transition-smooth);
+}
+
+.bridge-node:hover {
+    border-color: var(--accent);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.node-circle {
+    width: 12px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    box-shadow: 0 0 15px var(--accent);
+}
+
+.node-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

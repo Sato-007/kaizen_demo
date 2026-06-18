@@ -1,0 +1,53 @@
+<svg width="1440" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Base -->
+    <rect width="1440" height="600" fill="#0A192F"/>
+    
+    <!-- Abstract Geometric Patterns -->
+    <g opacity="0.15">
+        <!-- Large Background Circles -->
+        <circle cx="1200" cy="100" r="300" stroke="#64FFDA" stroke-width="1"/>
+        <circle cx="1200" cy="100" r="400" stroke="#64FFDA" stroke-width="0.5" stroke-dasharray="10 10"/>
+        
+        <!-- Precision Grid Lines -->
+        <path d="M0 100H1440" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M0 200H1440" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M0 300H1440" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M0 400H1440" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M0 500H1440" stroke="#64FFDA" stroke-width="0.5"/>
+        
+        <path d="M200 0V600" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M400 0V600" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M600 0V600" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M800 0V600" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M1000 0V600" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M1200 0V600" stroke="#64FFDA" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Focus Elements: Corporate/Precision Nodes -->
+    <g opacity="0.4">
+        <!-- Connecting Lines -->
+        <path d="M1100 150L1250 250L1350 100" stroke="#64FFDA" stroke-width="2"/>
+        <path d="M1250 250L1150 400" stroke="#64FFDA" stroke-width="2"/>
+        
+        <!-- Nodes -->
+        <circle cx="1100" cy="150" r="6" fill="#64FFDA"/>
+        <circle cx="1250" cy="250" r="8" fill="#64FFDA"/>
+        <circle cx="1350" cy="100" r="6" fill="#64FFDA"/>
+        <circle cx="1150" cy="400" r="6" fill="#64FFDA"/>
+        
+        <!-- Decorative Rectangles -->
+        <rect x="50" y="50" width="100" height="100" stroke="#64FFDA" stroke-width="1" transform="rotate(45 100 100)"/>
+        <rect x="1300" y="450" width="80" height="80" stroke="#64FFDA" stroke-width="1" transform="rotate(-15 1340 490)"/>
+    </g>
+
+    <!-- Gradient Overlay for depth -->
+    <rect width="1440" height="600" fill="url(#paint0_linear_hero)"/>
+    
+    <defs>
+        <linearGradient id="paint0_linear_hero" x1="0" y1="0" x2="1440" y2="600" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0A192F" stop-opacity="0.9"/>
+            <stop offset="0.5" stop-color="#0A192F" stop-opacity="0.4"/>
+            <stop offset="1" stop-color="#0A192F" stop-opacity="0.8"/>
+        </linearGradient>
+    </defs>
+</svg>

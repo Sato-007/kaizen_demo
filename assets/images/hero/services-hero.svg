@@ -1,0 +1,42 @@
+<svg width="1440" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Base -->
+    <rect width="1440" height="600" fill="#0A192F"/>
+    
+    <!-- Abstract Geometric Patterns (Data/Solutions Focus) -->
+    <g opacity="0.15">
+        <!-- Hexagon Patterns -->
+        <path d="M1200 50L1300 100V200L1200 250L1100 200V100L1200 50Z" stroke="#64FFDA" stroke-width="1"/>
+        <path d="M1200 250L1300 300V400L1200 450L1100 400V300L1200 250Z" stroke="#64FFDA" stroke-width="1"/>
+        <path d="M1350 150L1450 200V300L1350 350L1250 300V200L1350 150Z" stroke="#64FFDA" stroke-width="0.5"/>
+        <path d="M1050 150L1150 200V300L1050 350L950 300V200L1050 150Z" stroke="#64FFDA" stroke-width="0.5"/>
+        
+        <!-- Data Flow Lines -->
+        <path d="M0 500C300 500 400 300 700 300C1000 300 1100 500 1440 500" stroke="#64FFDA" stroke-width="0.5" stroke-dasharray="4 4"/>
+        <path d="M0 100C400 100 500 400 800 400C1100 400 1200 100 1440 100" stroke="#64FFDA" stroke-width="0.5" stroke-dasharray="4 4"/>
+    </g>
+    
+    <!-- Focus Elements: Dynamic Data Nodes -->
+    <g opacity="0.4">
+        <!-- Floating Elements -->
+        <circle cx="1200" cy="150" r="15" fill="#64FFDA"/>
+        <circle cx="1200" cy="350" r="10" fill="#64FFDA"/>
+        <circle cx="1050" cy="250" r="12" fill="#64FFDA"/>
+        <circle cx="1350" cy="250" r="8" fill="#64FFDA"/>
+        
+        <!-- Code Brackets Abstraction -->
+        <path d="M100 400L50 450L100 500" stroke="#64FFDA" stroke-width="2" fill="none"/>
+        <path d="M200 400L250 450L200 500" stroke="#64FFDA" stroke-width="2" fill="none"/>
+        <line x1="170" y1="380" x2="130" y2="520" stroke="#64FFDA" stroke-width="2"/>
+    </g>
+
+    <!-- Gradient Overlay for depth -->
+    <rect width="1440" height="600" fill="url(#paint0_linear_hero_services)"/>
+    
+    <defs>
+        <linearGradient id="paint0_linear_hero_services" x1="0" y1="0" x2="1440" y2="600" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0A192F" stop-opacity="0.9"/>
+            <stop offset="0.5" stop-color="#0A192F" stop-opacity="0.4"/>
+            <stop offset="1" stop-color="#0A192F" stop-opacity="0.8"/>
+        </linearGradient>
+    </defs>
+</svg>

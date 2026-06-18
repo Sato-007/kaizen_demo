@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaiZen Solutions | Architecting Enterprise IT</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Typography Configuration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="error-banner" class="error-banner" style="display: none;" data-i18n="footer.error_banner"></div>
+
+    <header>
+        <div class="container nav-container">
+            <div class="menu-toggle" id="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="logo">
+                <img src="assets/logos/logo.png" alt="KAIZEN" style="height: 30px; vertical-align: middle; margin-right: 10px; display: none;" onload="this.style.display='inline-block'">
+                KAIZEN<span class="accent">.</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" data-i18n="nav.home" class="active-link">Home</a>
+                <a href="services.html" data-i18n="nav.services">Services</a>
+                <a href="about.html" data-i18n="nav.about">About Us</a>
+                <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switch">
+                    <span class="lang-label en-label active">EN</span>
+                    <label class="switch">
+                        <input type="checkbox" id="language-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="lang-label jp-label">JP</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-close" id="mobile-close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <a href="index.html" data-i18n="nav.home" class="active-link">Home</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="about.html" data-i18n="nav.about">About Us</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+    </div>
+
+    <main class="bento-grid container">
+        <!-- Hero Slideshow -->
+        <section class="bento-item hero-box fade-in" id="hero-slideshow">
+            <div class="slides-container">
+                <!-- Slide 1 -->
+                <div class="hero-slide active">
+                    <div class="hero-content">
+                        <span class="badge" data-i18n="hero.slides.0.badge">Digital Excellence Since 2026</span>
+                        <h1 data-i18n="hero.slides.0.title">Architecting the Future of Japanese Enterprise IT</h1>
+                        <p data-i18n="hero.slides.0.subtitle">High-precision offshore development delivering technical integrity and 'Kaizen' driven innovation.</p>
+                        <div class="hero-cta">
+                            <a href="services.html" class="btn" data-i18n="hero.slides.0.cta">Explore Solutions</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="hero-slide">
+                    <div class="hero-content">
+                        <span class="badge" data-i18n="hero.slides.1.badge">AI & Automation Leaders</span>
+                        <h1 data-i18n="hero.slides.1.title">Empowering Business with Intelligent AI</h1>
+                        <p data-i18n="hero.slides.1.subtitle">Bespoke automation layers that transform complex data into actionable business intelligence.</p>
+                        <div class="hero-cta">
+                            <a href="services.html" class="btn" data-i18n="hero.slides.1.cta">Learn About AI</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="hero-slide">
+                    <div class="hero-content">
+                        <span class="badge" data-i18n="hero.slides.2.badge">Cloud Integration Experts</span>
+                        <h1 data-i18n="hero.slides.2.title">Seamless Cloud Transformation</h1>
+                        <p data-i18n="hero.slides.2.subtitle">Designing resilient, scalable architectures that ensure your mission-critical operations never fail.</p>
+                        <div class="hero-cta">
+                            <a href="services.html" class="btn" data-i18n="hero.slides.2.cta">View Cloud Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slideshow-controls">
+                <div class="slide-dot active" data-slide="0"></div>
+                <div class="slide-dot" data-slide="1"></div>
+                <div class="slide-dot" data-slide="2"></div>
+            </div>
+            
+            <div class="vertical-text">KAIZEN SOLUTIONS</div>
+        </section>
+
+        <!-- Metrics Section -->
+        <section class="bento-item metrics-box fade-in">
+            <div class="metric">
+                <span class="metric-value" data-i18n="metrics.uptime.value">99.9%</span>
+                <span class="metric-label" data-i18n="metrics.uptime.label">System Reliability</span>
+            </div>
+            <div class="metric">
+                <span class="metric-value" data-i18n="metrics.clients.value">50+</span>
+                <span class="metric-label" data-i18n="metrics.clients.label">Enterprise Partners</span>
+            </div>
+            <div class="metric">
+                <span class="metric-value" data-i18n="metrics.satisfaction.value">100%</span>
+                <span class="metric-label" data-i18n="metrics.satisfaction.label">Commitment to Quality</span>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="bento-item expertise-box fade-in" style="grid-column: span 4; grid-row: span 2;">
+            <h2 class="section-tag" data-i18n="expertise.title">Core Expertise</h2>
+            <div style="margin-top: 20px;">
+                <h4 data-i18n="expertise.tech_stack.title" style="color: var(--primary); margin-bottom: 8px;">Modern Tech Stacks</h4>
+                <p data-i18n="expertise.tech_stack.desc" style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 20px;">Specializing in React, Node.js, Python, and Go.</p>
+                <h4 data-i18n="expertise.security.title" style="color: var(--primary); margin-bottom: 8px;">Enterprise Security</h4>
+                <p data-i18n="expertise.security.desc" style="font-size: 0.85rem; color: var(--text-light);">Rigorous data protection standards.</p>
+            </div>
+        </section>
+
+        <!-- Workflow Section -->
+        <section class="bento-item process-box fade-in" style="grid-column: span 8; grid-row: span 2;">
+            <h2 class="section-tag" data-i18n="process.title">The Kaizen Workflow</h2>
+            <div class="process-steps-grid">
+                <div class="process-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 data-i18n="process.step1.title">Strategic Discovery</h4>
+                        <p data-i18n="process.step1.desc">Deep-dive into business logic.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                    </div>
+                    <div>
+                        <h4 data-i18n="process.step2.title">Precision Architecture</h4>
+                        <p data-i18n="process.step2.desc">Scalable blueprints.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </div>
+                    <div>
+                        <h4 data-i18n="process.step3.title">Transparent Development</h4>
+                        <p data-i18n="process.step3.desc">Agile sprints & reporting.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <div>
+                        <h4 data-i18n="process.step4.title">Multi-Layered QA</h4>
+                        <p data-i18n="process.step4.desc">Strict zero-defect testing.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                    </div>
+                    <div>
+                        <h4 data-i18n="process.step5.title">Deployment & Kaizen</h4>
+                        <p data-i18n="process.step5.desc">Optimization & Support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section class="bento-item philosophy-box fade-in">
+            <h2 class="section-tag" data-i18n="philosophy.title">The Kaizen Principle</h2>
+            <p class="philosophy-text" data-i18n="philosophy.content">Our name defines our methodology. 'Kaizen' means continuous improvement. We don't just build software; we architect evolving ecosystems that grow with your business goals.</p>
+            <div class="philosophy-sub">
+                <div>
+                    <h4 data-i18n="philosophy.vision_title">Our Vision</h4>
+                    <p data-i18n="philosophy.vision_content">To be the most trusted offshore bridge for Japanese technology leadership.</p>
+                </div>
+                <div>
+                    <h4 data-i18n="philosophy.mission_title">Our Mission</h4>
+                    <p data-i18n="philosophy.mission_content">Fusing Indian technical prowess with Japanese quality standards to solve global challenges.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Showcase -->
+        <section class="bento-item partners-box fade-in" id="partners-section">
+            <h2 class="section-tag" data-i18n="partners.title">Our Valued Partners</h2>
+            <div id="partners-slider-container" class="partners-slider">
+                <!-- Content injected via JS -->
+            </div>
+            <div class="partners-controls">
+                <!-- Dots injected via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column footer-brand">
+                    <div class="logo">
+                        <img src="assets/logos/logo.png" alt="KAIZEN" style="height: 30px; vertical-align: middle; margin-right: 10px; display: none;" onload="this.style.display='inline-block'">
+                        KAIZEN<span class="accent">.</span>
+                    </div>
+                    <p class="footer-tagline" data-i18n="footer.tagline">Architecting the future through continuous improvement and technical integrity.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.nav_title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="footer.links.home">Home</a></li>
+                        <li><a href="services.html" data-i18n="footer.links.services">Services</a></li>
+                        <li><a href="about.html" data-i18n="footer.links.about">About Us</a></li>
+                        <li><a href="contact.html" data-i18n="footer.links.contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.contact_title">Contact Hub</h4>
+                    <ul class="footer-contact-list">
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.email_label">Email</span>
+                            <span class="contact-val" data-i18n="footer.info.email_val">contact@kaizen.solutions</span>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.hq_label">Headquarters</span>
+                            <span class="contact-val" data-i18n="footer.info.hq_val">Bangalore, India</span>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.jp_label">Japan Liaison</span>
+                            <span class="contact-val" data-i18n="footer.info.jp_val">Tokyo, Japan</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.social_title">Stay Connected</h4>
+                    <div class="footer-social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">X (Twitter)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy" data-i18n="footer.copyright">© 2026 KaiZen Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html" target="_blank" rel="noopener noreferrer" data-i18n="footer.legal.privacy">Privacy Policy</a>
+                    <a href="terms.html" target="_blank" rel="noopener noreferrer" data-i18n="footer.legal.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js" defer></script>
+    <script src="js/common.js" defer></script>
+    <script src="js/home.js" defer></script>
+</body>
+</html>

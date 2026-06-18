@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Start a Conversation",
+    "subtitle": "Tell us about your technical challenges. Our experts are ready to architect your solution."
+  },
+  "form": {
+    "title": "Enquiry Form",
+    "company": "Company Name",
+    "dept": "Department",
+    "name": "Full Name",
+    "email": "Email Address",
+    "inquiry_type": "Inquiry Type",
+    "type_options": {
+      "general": "General Inquiry",
+      "project": "New Project Request",
+      "quote": "Request for Quotation",
+      "recruitment": "Partnership / Recruitment"
+    },
+    "message": "Message",
+    "submit": "Send Message",
+    "placeholder": "Enter your message here..."
+  },
+  "contact_info": {
+    "title": "Office Information",
+    "map_title": "Global Operations Map",
+    "hq_title": "Headquarters (India)",
+    "hq_val": "Tech Park, Bangalore, India",
+    "jp_title": "Japan Liaison",
+    "jp_val": "Minato-ku, Tokyo, Japan",
+    "email_label": "Email",
+    "email_val": "contact@kaizen.solutions",
+    "hours_title": "Business Hours",
+    "hours_val": "Mon - Fri: 9:00 AM - 6:00 PM (JST/IST)",
+    "response_title": "Response Time",
+    "response_val": "We typically respond within 1 business day."
+  },
+  "footer": {
+    "tagline": "Architecting the future through continuous improvement and technical integrity.",
+    "nav_title": "Navigation",
+    "contact_title": "Contact Hub",
+    "social_title": "Stay Connected",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "info": {
+      "email_label": "Email",
+      "email_val": "contact@kaizen.solutions",
+      "phone_label": "Phone",
+      "phone_val": "+91-80-XXXX-XXXX",
+      "hq_label": "Headquarters",
+      "hq_val": "Bangalore, India",
+      "jp_label": "Japan Liaison",
+      "jp_val": "Tokyo, Japan"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© 2026 KaiZen Solutions. All rights reserved.",
+    "address": "Bangalore | Tokyo",
+    "follow_us": "Follow Us",
+    "error_banner": "Language toggle requires a local web server (CORS protection). Please use 'Live Server' or equivalent to test translations."
+  }
+}

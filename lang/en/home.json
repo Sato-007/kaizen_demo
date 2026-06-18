@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "slides": [
+      {
+        "badge": "Digital Excellence Since 2026",
+        "title": "Architecting the Future of Japanese Enterprise IT",
+        "subtitle": "High-precision offshore development delivering technical integrity and 'Kaizen' driven innovation.",
+        "cta": "Explore Solutions"
+      },
+      {
+        "badge": "AI & Automation Leaders",
+        "title": "Empowering Business with Intelligent AI",
+        "subtitle": "Bespoke automation layers that transform complex data into actionable business intelligence.",
+        "cta": "Learn About AI"
+      },
+      {
+        "badge": "Cloud Integration Experts",
+        "title": "Seamless Cloud Transformation",
+        "subtitle": "Designing resilient, scalable architectures that ensure your mission-critical operations never fail.",
+        "cta": "View Cloud Services"
+      }
+    ]
+  },
+  "metrics": {
+    "uptime": {
+      "value": "99.9%",
+      "label": "System Reliability"
+    },
+    "clients": {
+      "value": "50+",
+      "label": "Enterprise Partners"
+    },
+    "satisfaction": {
+      "value": "100%",
+      "label": "Commitment to Quality"
+    }
+  },
+  "expertise": {
+    "title": "Core Expertise",
+    "tech_stack": {
+      "title": "Modern Tech Stacks",
+      "desc": "Specializing in React, Node.js, Python, and Go for high-performance applications."
+    },
+    "security": {
+      "title": "Enterprise Security",
+      "desc": "Rigorous data protection and compliance standards to safeguard your intellectual property."
+    }
+  },
+  "process": {
+    "title": "The Kaizen Workflow",
+    "step1": {
+      "num": "01",
+      "title": "Strategic Discovery",
+      "desc": "Deep-dive into business logic and Japanese market requirements."
+    },
+    "step2": {
+      "num": "02",
+      "title": "Precision Architecture",
+      "desc": "Designing scalable blueprints with a 'Security-First' mindset."
+    },
+    "step3": {
+      "num": "03",
+      "title": "Transparent Development",
+      "desc": "Agile sprints with regular feedback loops and bilingual reporting."
+    },
+    "step4": {
+      "num": "04",
+      "title": "Multi-Layered QA",
+      "desc": "Rigorous testing protocols to ensure zero-defect, premium delivery."
+    },
+    "step5": {
+      "num": "05",
+      "title": "Deployment & Kaizen",
+      "desc": "Seamless launch followed by continuous optimization and support."
+    }
+  },
+  "partners": {
+    "title": "Our Valued Partners",
+    "subtitle": "Trusted by industry leaders to deliver mission-critical technical excellence.",
+    "list": [
+      { "name": "Global FinTech", "industry": "Financial Services", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "Nippon Mfg", "industry": "Advanced Manufacturing", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "TechCore Cloud", "industry": "Infrastructure", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "EuroLogistics", "industry": "Supply Chain", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "Aether AI", "industry": "Artificial Intelligence", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "Nexus Health", "industry": "Healthcare Systems", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "Solaris Energy", "industry": "Renewable Tech", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "Titan Retail", "industry": "E-commerce", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "Veritas Legal", "industry": "Legal Tech", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "AeroDynamics", "industry": "Aerospace", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "BioSynthetix", "industry": "Biotechnology", "logo": "assets/partner_logos/partner_logo.png" },
+      { "name": "Quantum Labs", "industry": "Deep Tech", "logo": "assets/partner_logos/partner_logo.png" }
+    ]
+  },
+  "philosophy": {
+    "title": "The Kaizen Principle",
+    "content": "Our name defines our methodology. 'Kaizen' means continuous improvement. We don't just build software; we architect evolving ecosystems that grow with your business goals.",
+    "vision_title": "Our Vision",
+    "vision_content": "To be the most trusted offshore bridge for Japanese technology leadership.",
+    "mission_title": "Our Mission",
+    "mission_content": "Fusing Indian technical prowess with Japanese quality standards to solve global challenges."
+  },
+  "footer": {
+    "tagline": "Architecting the future through continuous improvement and technical integrity.",
+    "nav_title": "Navigation",
+    "contact_title": "Contact Hub",
+    "social_title": "Stay Connected",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "info": {
+      "email_label": "Email",
+      "email_val": "contact@kaizen.solutions",
+      "phone_label": "Phone",
+      "phone_val": "+91-80-XXXX-XXXX",
+      "hq_label": "Headquarters",
+      "hq_val": "Bangalore, India",
+      "jp_label": "Japan Liaison",
+      "jp_val": "Tokyo, Japan"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© 2026 KaiZen Solutions. All rights reserved.",
+    "address": "Bangalore | Tokyo",
+    "follow_us": "Follow Us",
+    "error_banner": "Language toggle requires a local web server (CORS protection). Please use 'Live Server' or equivalent to test translations."
+  }
+}

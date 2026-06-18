@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Architecting Enterprise Excellence",
+    "subtitle": "A comprehensive suite of high-precision IT services, fusing Indian technical prowess with Japanese quality standards."
+  },
+  "categories": {
+    "software": "Software Development",
+    "ai": "AI & Automation",
+    "data": "Data & Intelligence",
+    "cloud": "Cloud & Infra",
+    "dx": "Digital Transformation",
+    "bpo": "Business Process",
+    "managed": "Managed Services",
+    "qa": "QA & Testing"
+  },
+  "sections": {
+    "software": {
+      "title": "Software Development",
+      "desc": "Engineering scalable, high-integrity applications that serve as the backbone of modern enterprise operations.",
+      "features": ["Enterprise Apps", "SaaS Products", "API Integration", "Legacy Modernization"]
+    },
+    "ai_automation": {
+      "title": "AI & Automation",
+      "desc": "Deploying intelligent automation layers and generative AI to transform complex data into competitive advantages.",
+      "features": ["Generative AI", "Custom LLMs", "RPA", "Predictive Analytics"]
+    },
+    "data": {
+      "title": "Data & Business Intelligence",
+      "desc": "Turning raw data into actionable insights through sophisticated engineering and reporting automation.",
+      "features": ["Data Engineering", "BI Reporting", "KPI Monitoring", "Data Governance"]
+    },
+    "cloud_infra": {
+      "title": "Cloud & Infrastructure",
+      "desc": "Designing resilient, cloud-native architectures that ensure maximum uptime and global scalability.",
+      "features": ["Cloud Migration", "DevOps & CI/CD", "Infrastructure Auto", "Performance Tuning"]
+    },
+    "dx": {
+      "title": "Digital Transformation",
+      "desc": "Strategic consulting to navigate the complex intersection of technology, culture, and business process.",
+      "features": ["Tech Strategy", "Enterprise Roadmap", "Process Optimization", "IT Governance"]
+    },
+    "bpo": {
+      "title": "Business Process (BPO)",
+      "desc": "Optimizing back-office operations through high-precision data processing and customer support excellence.",
+      "features": ["Data Processing", "Helpdesk Ops", "Technical Support", "Business Research"]
+    },
+    "managed": {
+      "title": "Managed IT Services",
+      "desc": "Comprehensive 24/7 application and infrastructure support ensuring continuous business continuity.",
+      "features": ["Incident Mgmt", "Remote Support", "Service Desk", "Release Management"]
+    },
+    "qa": {
+      "title": "QA & Testing Services",
+      "desc": "Rigorous quality assurance protocols that guarantee technical integrity and seamless user experiences.",
+      "features": ["Test Automation", "Performance Testing", "Regression QA", "UAT Consulting"]
+    }
+  },
+  "services_cta": {
+    "title": "Ready to Architect Your Solution?",
+    "subtitle": "Let's discuss how our offshore expertise can accelerate your business goals.",
+    "button": "Book a Free Consultation Now"
+  },
+  "footer": {
+    "tagline": "Architecting the future through continuous improvement and technical integrity.",
+    "nav_title": "Navigation",
+    "contact_title": "Contact Hub",
+    "social_title": "Stay Connected",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "info": {
+      "email_label": "Email",
+      "email_val": "contact@kaizen.solutions",
+      "phone_label": "Phone",
+      "phone_val": "+91-80-XXXX-XXXX",
+      "hq_label": "Headquarters",
+      "hq_val": "Bangalore, India",
+      "jp_label": "Japan Liaison",
+      "jp_val": "Tokyo, Japan"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "© 2026 KaiZen Solutions. All rights reserved.",
+    "address": "Bangalore | Tokyo",
+    "follow_us": "Follow Us",
+    "error_banner": "Language toggle requires a local web server (CORS protection). Please use 'Live Server' or equivalent to test translations."
+  }
+}

@@ -1,0 +1,48 @@
+/* 
+    KaiZen Solutions - Base Styles
+    Variables, Resets, and Typography
+*/
+
+:root {
+    --primary: #0A192F; /* Deep Ink Navy */
+    --accent: #64FFDA;  /* Tech Teal Accent */
+    --text-main: #2D3748;
+    --text-light: #718096;
+    --bg-washi: #F9F9F7;
+    --white: #FFFFFF;
+    --border: #E2E8F0;
+    --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    --grid-gap: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans JP', -apple-system, sans-serif;
+    background-color: var(--bg-washi);
+    color: var(--text-main);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.fade-in.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition: var(--transition-smooth);
+}

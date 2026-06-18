@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | KaiZen Solutions</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/subpages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="error-banner" class="error-banner" style="display: none;" data-i18n="footer.error_banner"></div>
+
+    <header>
+        <div class="container nav-container">
+            <div class="menu-toggle" id="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="logo">
+                <img src="assets/logos/logo.png" alt="KAIZEN" style="height: 30px; vertical-align: middle; margin-right: 10px; display: none;" onload="this.style.display='inline-block'">
+                KAIZEN<span class="accent">.</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" data-i18n="nav.home">Home</a>
+                <a href="services.html" data-i18n="nav.services">Services</a>
+                <a href="about.html" data-i18n="nav.about" class="active-link">About Us</a>
+                <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switch">
+                    <span class="lang-label en-label active">EN</span>
+                    <label class="switch">
+                        <input type="checkbox" id="language-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="lang-label jp-label">JP</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-close" id="mobile-close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="about.html" data-i18n="nav.about" class="active-link">About Us</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact Us</a>
+    </div>
+
+    <main class="bento-grid container">
+        <section class="bento-item page-hero hero-about fade-in">
+            <h1 data-i18n="hero.title">Bridging Innovation and Reliability</h1>
+            <p data-i18n="hero.subtitle">Fusing technical prowess with the Japanese spirit of 'Monozukuri' (Craftsmanship).</p>
+        </section>
+
+        <section class="bento-item fade-in" style="grid-column: span 12;">
+            <h2 class="section-tag" data-i18n="who_we_are.title">Who We Are</h2>
+            <div class="responsive-grid" style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 60px; align-items: center; margin-top: 30px;">
+                <p data-i18n="who_we_are.content" style="font-size: 1.25rem; line-height: 1.8; color: var(--primary); font-weight: 500;">Founded in 2026, KaiZen Solutions was established to provide a superior offshore experience for Japanese enterprises.</p>
+                <div class="values-grid" style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+                    <div style="padding-left: 20px; border-left: 3px solid var(--accent);">
+                        <h4 data-i18n="values.integrity.title" style="color: var(--primary); margin-bottom: 4px; font-size: 1rem;">Technical Integrity</h4>
+                        <p data-i18n="values.integrity.desc" style="font-size: 0.85rem; color: var(--text-light);">We prioritize clean, sustainable code.</p>
+                    </div>
+                    <div style="padding-left: 20px; border-left: 3px solid var(--accent);">
+                        <h4 data-i18n="values.kaizen.title" style="color: var(--primary); margin-bottom: 4px; font-size: 1rem;">Continuous Improvement</h4>
+                        <p data-i18n="values.kaizen.desc" style="font-size: 0.85rem; color: var(--text-light);">Always evolving for our partners.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strategic Bridge Section -->
+        <section class="bento-item fade-in" style="grid-column: span 12; background: var(--bg-washi);">
+            <div style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <h2 class="section-tag" data-i18n="bridge.title">Strategic Tech-Bridge</h2>
+                <p data-i18n="bridge.content" style="font-size: 1.1rem; margin-top: 20px; color: var(--text-main);">We serve as a vital link between the technological innovation of India and the precision-driven industries of Japan.</p>
+                
+                <div class="bridge-container">
+                    <div class="bridge-node">
+                        <div class="node-circle"></div>
+                        <span class="node-label" data-i18n="bridge.left_label">India</span>
+                    </div>
+                    <div class="bridge-visual"></div>
+                    <div class="bridge-node">
+                        <div class="node-circle"></div>
+                        <span class="node-label" data-i18n="bridge.right_label">Japan</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bento-item bento-half fade-in" style="grid-column: span 7;">
+            <h2 class="section-tag" data-i18n="profile.title">Company Profile</h2>
+            <table class="profile-table">
+                <tr>
+                    <th data-i18n="profile.name_label">Company Name</th>
+                    <td data-i18n="profile.name_val">KaiZen Solutions Pvt. Ltd.</td>
+                </tr>
+                <tr>
+                    <th data-i18n="profile.founded_label">Founded</th>
+                    <td data-i18n="profile.founded_val">June 2026</td>
+                </tr>
+                <tr>
+                    <th data-i18n="profile.location_label">Headquarters</th>
+                    <td data-i18n="profile.location_val">Bangalore, India</td>
+                </tr>
+                <tr>
+                    <th data-i18n="profile.office_label">Japan Office</th>
+                    <td data-i18n="profile.office_val">Tokyo, Japan</td>
+                </tr>
+            </table>
+            <a href="docs/zks_profile_2026.pdf" class="btn-download" download="KaiZen_Solutions_Company_Profile_2026.pdf">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span data-i18n="profile.download_btn">Download Company Profile (PDF)</span>
+            </a>
+        </section>
+
+        <section class="bento-item bento-half fade-in" style="grid-column: span 5; background: var(--primary); color: var(--white); display: flex; flex-direction: column; justify-content: center;">
+            <h2 class="section-tag" data-i18n="commitment.title" style="color: var(--accent);">Our Commitment</h2>
+            <h3 data-i18n="commitment.subtitle" style="font-size: 1.5rem; margin-bottom: 20px;">Uncompromising Quality</h3>
+            <p data-i18n="commitment.content" style="opacity: 0.8; font-size: 0.95rem; line-height: 1.7;">We don't just deliver code; we deliver peace of mind. Our processes are designed to mirror Japanese quality standards at every stage of the lifecycle.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column footer-brand">
+                    <div class="logo">
+                        <img src="assets/logos/logo.png" alt="KAIZEN" style="height: 30px; vertical-align: middle; margin-right: 10px; display: none;" onload="this.style.display='inline-block'">
+                        KAIZEN<span class="accent">.</span>
+                    </div>
+                    <p class="footer-tagline" data-i18n="footer.tagline">Architecting the future through continuous improvement and technical integrity.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.nav_title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="footer.links.home">Home</a></li>
+                        <li><a href="services.html" data-i18n="footer.links.services">Services</a></li>
+                        <li><a href="about.html" data-i18n="footer.links.about">About Us</a></li>
+                        <li><a href="contact.html" data-i18n="footer.links.contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.contact_title">Contact Hub</h4>
+                    <ul class="footer-contact-list">
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.email_label">Email</span>
+                            <span class="contact-val" data-i18n="footer.info.email_val">contact@kaizen.solutions</span>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.hq_label">Headquarters</span>
+                            <span class="contact-val" data-i18n="footer.info.hq_val">Bangalore, India</span>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-label" data-i18n="footer.info.jp_label">Japan Liaison</span>
+                            <span class="contact-val" data-i18n="footer.info.jp_val">Tokyo, Japan</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 data-i18n="footer.social_title">Stay Connected</h4>
+                    <div class="footer-social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">X (Twitter)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy" data-i18n="footer.copyright">© 2026 KaiZen Solutions. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html" target="_blank" rel="noopener noreferrer" data-i18n="footer.legal.privacy">Privacy Policy</a>
+                    <a href="terms.html" target="_blank" rel="noopener noreferrer" data-i18n="footer.legal.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js" defer></script>
+    <script src="js/common.js" defer></script>
+</body>
+</html>
